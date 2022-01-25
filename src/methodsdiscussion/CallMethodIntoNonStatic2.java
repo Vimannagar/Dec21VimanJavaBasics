@@ -7,4 +7,9 @@ public class CallMethodIntoNonStatic2 {
 		System.out.println("m3 static method");
 	}
 
+	
+	public void m7()
+	{
+		System.out.println("m7 non static method");
+	}
 }
