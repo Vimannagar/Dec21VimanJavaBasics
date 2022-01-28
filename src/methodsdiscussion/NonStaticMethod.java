@@ -43,6 +43,9 @@ public void methodOne()
 public void methodTwo()
 {
 	System.out.println("Non static method two");
+	NonStaticMethod2 var3 = new NonStaticMethod2();
+	
+	var3.m3();
 }
 	
 }
