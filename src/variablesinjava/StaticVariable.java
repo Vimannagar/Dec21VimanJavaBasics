@@ -4,6 +4,8 @@ public class StaticVariable {
 
 	static int d = 90;
 	
+	int h = 50;
+	
 	
 	
 	public static void main(String[] args) {
