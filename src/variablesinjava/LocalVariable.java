@@ -2,6 +2,8 @@ package variablesinjava;
 
 public class LocalVariable {
 	
+	
+	
 	public static void m1()
 	{
 		int i = 10;

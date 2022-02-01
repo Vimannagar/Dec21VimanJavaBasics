@@ -22,4 +22,11 @@ public static void m2()
 	
 	System.out.println(i);//6
 }
+
+public static void main(String[] args) {
+	
+	ThisKeyword tk = new ThisKeyword();
+	tk.m1();
+	
+}
 }
