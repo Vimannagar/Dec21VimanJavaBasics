@@ -2,6 +2,7 @@ package methodsdiscussion;
 
 public class CategoriesOfMethod {
 	
+	
 //	a. method without return type and without argument
 	
 	public void m1()
@@ -46,7 +47,10 @@ public class CategoriesOfMethod {
 	
 	System.out.println(retvalue+" corporate");
 	
-		
+	int value	= add(10, 20);
+int l = value+2;
+
+System.out.println(l);
 		
 		
 	}
