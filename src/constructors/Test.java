@@ -10,9 +10,22 @@ public class Test {
 	
 	public Test()
 	{
-		System.out.println("Constructor is executing");
+		System.out.println("zero argument Constructor is executing");
 	}
 	
+	public Test(int i)
+	{
+		System.out.println(i);
+		System.out.println("One argument constructor");
+	}
+	
+	
+	public Test(String s , double d)
+	{
+		System.out.println("2 argument constructor");
+		
+		System.out.println(s + " " + d);
+	}
 	
 
 	
@@ -22,7 +35,14 @@ public class Test {
 		
 		Test1 t1 = new Test1();
 		
+		Test t2 = new Test(50);
+		
+		
+		Test t3 = new Test("Height", 6.5);
+		
+		
 		
 		
 	}
 }
+ 
