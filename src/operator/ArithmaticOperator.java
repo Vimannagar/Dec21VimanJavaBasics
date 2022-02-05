@@ -42,6 +42,29 @@ public class ArithmaticOperator {
 	
 	System.out.println(l);
 	
+	
+	
+	byte b1 = 10;
+	byte c1 = 50;
+	
+	int d1 = b1 + c1 ;
+	
+//	byte--> short--> int--> long--> float--> double
+//		    char 
+	
+//	byte + byte = int
+//	byte + short = int
+//	short + short = int
+//	int + long = long
+	
+//	int + float= float
+	
+	
+	byte v = 50;
+	long l1 = 5666l;
+	
+	
+	long g1 = v+ l1;
 		
 	}
 
