@@ -14,7 +14,7 @@ public class LogicalOperator {
 		
 	boolean	l = j<20;
 	
-		boolean m = k && l;
+		boolean m = k && l && (j==50);
 		
 		System.out.println(m);//false
 		
