@@ -23,7 +23,23 @@ public class LogicalOperator {
 	boolean	n = k || l;
 	
 	System.out.println(n);// true
+	
+//	NOT operator
+	
+	int q = 12;
+	
+	boolean p = !(q==10);
+	
+	System.out.println("p value is "+p);
 		
+	if(q!=12)
+	{
+		System.out.println("q is not equal to 12");
+	}
+	else
+	{
+		System.out.println("q is equal to 12");
+	}
 		
 		
 		
