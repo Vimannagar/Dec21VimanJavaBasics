@@ -13,6 +13,12 @@ public class ComparativeOperators {
 		
 		System.out.println(u);//true
 		
+//		greater than or equal to '>='
+		
+		boolean z = i>=100;// true
+		
+		
+		
 //		less than '<'
 		
 	boolean	v = i<j;

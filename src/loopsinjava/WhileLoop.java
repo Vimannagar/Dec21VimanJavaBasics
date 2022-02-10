@@ -18,7 +18,7 @@ public class WhileLoop {
 		{
 			System.out.println("I value is "+i);
 			
-			i = i+1;
+			i++;
 			
 		}
 		
