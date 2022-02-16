@@ -1,5 +1,5 @@
 package accessmodifiers;
 
-public final  class A {
+public final  class A1 {
 
 }

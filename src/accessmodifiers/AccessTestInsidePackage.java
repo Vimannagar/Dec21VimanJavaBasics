@@ -10,6 +10,16 @@ public class AccessTestInsidePackage {
 		
 		Test.m1();
 		
+//	accessing default method
+		
+		t.m2();
+		
+//	accessing private method	
+//		Test.m3();- This cannot be accessible here as it is private which can be access only within the class
+		
+		
+		
+		
 		
 	}
 

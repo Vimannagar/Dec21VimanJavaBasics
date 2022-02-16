@@ -16,8 +16,15 @@ public class AccessTest {
 		
 		Test.m1();
 		
+//		calling of default method
+		
+//		t.m2(); - Cannot access the m2 method as it is default which can be accessible only within the package
 		
 		
+		
+//	calling of private method
+		
+//	Test.m3();	Cannot access the m3 method as it is private which can be accessible only within the class
 		
 
 		
