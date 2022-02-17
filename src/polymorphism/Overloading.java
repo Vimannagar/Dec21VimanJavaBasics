@@ -8,6 +8,12 @@ public class Overloading {
 		
 	}
 	
+	private static void m1(int i , int j)
+	{
+		System.out.println("m1 method with no argument");
+		
+	}
+	
 	public static void m1(int i)
 	{
 		System.out.println("m1 second static method");
@@ -56,6 +62,8 @@ public class Overloading {
 		m1();
 		
 		m1(50);
+		
+		m1(50, 60);
 		
 	}
 
