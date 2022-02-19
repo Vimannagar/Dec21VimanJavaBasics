@@ -8,11 +8,22 @@ public class Child extends Parent {
 		System.out.println("m1 method from child class");
 		return 50;
 	}
+	protected void m6()
+	{
+		System.out.println("child class protected method");
+		
+	}
 	
 	
 	public void marry()
 	{
 		System.out.println("Child marry method");
+	}
+	
+	
+	public void accessTest()
+	{
+		System.out.println("Access test method from Child class");
 	}
 	
 	public void m5()
@@ -26,8 +37,6 @@ public class Child extends Parent {
 	}
 	
 	
-	
-	
 	public static void main(String[] args) {
 		Child c = new Child ();
 		c.home();
@@ -39,6 +48,8 @@ public class Child extends Parent {
 		c.marry();// child class marry method
 		
 		Parent p = new Parent();
+		
+		p.m6();
 		
 		p.marry();// parent class marry method
 		
@@ -59,6 +70,14 @@ public class Child extends Parent {
 //		pp.m5();
 		
 		pp.car();// car method from parent class
+		
+		
+		pp.marry();// child class
+		
+		
+		pp.home();
+		
+		pp.m6();
 		
 		
 	}

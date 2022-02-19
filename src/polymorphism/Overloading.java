@@ -14,6 +14,12 @@ public class Overloading {
 		
 	}
 	
+	private static void m1(int i , int j, int k)
+	{
+		System.out.println("m1 method with no argument");
+		
+	}
+	
 	public static void m1(int i)
 	{
 		System.out.println("m1 second static method");

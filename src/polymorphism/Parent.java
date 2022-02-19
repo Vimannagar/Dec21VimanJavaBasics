@@ -19,7 +19,10 @@ public class Parent {
 		System.out.println("Home method from parent");
 	}
 	
-	
+	 void accessTest()
+	{
+		System.out.println("Access test method from Parent class");
+	}
 	
 	public void car()
 	{
@@ -29,6 +32,12 @@ public class Parent {
 	public void marry()
 	{
 		System.out.println("marry method from parent");
+	}
+	
+	protected void m6()
+	{
+		System.out.println("parent class protected method");
+		
 	}
 	
 
