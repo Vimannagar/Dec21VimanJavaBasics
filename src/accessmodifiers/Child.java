@@ -7,10 +7,10 @@ public class Child extends Parent{
 		System.out.println("bike method from child class");
 	}
 	
-	public void marry()
-	{
-		System.out.println("child class marry method");
-	}
+//	public void marry()
+//	{
+//		System.out.println("child class marry method");
+//	}
 	
 	public static void main(String[] args) {
 		

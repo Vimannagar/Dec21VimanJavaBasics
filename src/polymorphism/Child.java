@@ -80,6 +80,8 @@ public class Child extends Parent {
 		pp.m6();
 		
 		
+		pp.accessTest();
+		
 	}
 
 }

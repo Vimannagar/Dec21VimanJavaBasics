@@ -14,7 +14,7 @@ public  class Parent {
 		System.out.println("car method from parent");
 		System.out.println(this.i);
 	
-		i=21;
+//		i=21;
 		
 	}
 	
