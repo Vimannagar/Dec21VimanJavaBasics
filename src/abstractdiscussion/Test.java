@@ -13,8 +13,8 @@ public abstract class Test {
 		System.out.println("m2 method from Testclass");
 	}
 	
-	public abstract void m3() ;
-	
+	public abstract void m3();
+	public abstract void m4();
 	
 	
 

@@ -1,6 +1,6 @@
 package abstractdiscussion;
 
-public class Test1 extends Test
+public abstract  class Test1 extends Test
 {
 
 
@@ -9,14 +9,7 @@ public class Test1 extends Test
 		System.out.println("m3 implementation from Test1 class");
 	}
 	
-	public static void main(String[] args) {
-		Test1 t1 = new Test1();
-		
-		t1.m1();
-		t1.m2();
-		t1.m3();
-		
-	}
+	
 
 
 }
