@@ -2,6 +2,7 @@ package variablesinjava;
 
 
 import accessmodifiers.Test;
+import interfacediscussion.Interface2;
 
 
 public class AccessTest {
@@ -26,7 +27,7 @@ public class AccessTest {
 		
 //	Test.m3();	Cannot access the m3 method as it is private which can be accessible only within the class
 		
-
+System.out.println(Interface2.i);
 		
 		
 		

@@ -2,6 +2,7 @@ package interfacediscussion;
 
 public class ChromeDriver implements Interface1 {
 
+int i =50;
 
 	public void close() {
 		System.out.println("close the browser");
