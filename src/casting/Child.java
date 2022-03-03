@@ -34,6 +34,12 @@ public class Child extends Parent {
 		
 		cc.m3();// child class
 		
+		Parent p = new Parent();
+		
+		Child ccc  = (Child)p;
+		
+		
+		ccc.m1();
 	}
 
 }
