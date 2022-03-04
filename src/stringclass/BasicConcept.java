@@ -37,11 +37,11 @@ public class BasicConcept {
 //		==
 		boolean ispointingsame = ss==s5;
 		
-		System.out.println(ispointingsame);
+		System.out.println(ispointingsame);//false
 		
 		boolean ispointingsame1 = s3==s4;
 		
-		System.out.println(ispointingsame1);
+		System.out.println(ispointingsame1);// true
 		
 		
 		
