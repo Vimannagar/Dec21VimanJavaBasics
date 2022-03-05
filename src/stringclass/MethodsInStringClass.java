@@ -96,6 +96,17 @@ public class MethodsInStringClass {
 	System.out.println("***************************************************");
 //	WAP to print the char value and its index position inside a string
 	
+	String s22 = "Velocity";
+	
+	for(int i=0; i<s22.length(); i++)
+	{
+		char s23 = s22.charAt(i);
+		System.out.println(s23+" "+i);
+	}
+	
+	
+	
+	
 // 10. replace(char oldchar, char newchar):
 	
 	String s15 = "ab!cef";
@@ -130,7 +141,91 @@ public class MethodsInStringClass {
 	
 //	WAP to reverse a given string
 	
+//	14. trim()
 	
+	String s24 = "     val ue     ";
+	
+	String s25 = s24.trim();
+	
+	System.out.println(s25);//val ue
+	
+	
+//	15. replace
+	String s26 = "This    is   a String";
+	
+	String s27 = s26.replace(" ", "");
+	
+	System.out.println(s27);//ThisisaString
+	
+	
+//	16. split
+	
+	String s28 = "This  is String";
+	
+	String[] s29 = s28.split(" ");
+	
+	for(String j:s29)
+	{
+		System.out.println(j);
+	}
+	
+	for (int i=0; i<s29.length; i++)
+	{
+		System.out.println(s29[i]);
+	}
+	
+	//17. toCharArray():
+	String s30 = "Velocity";
+	 
+	char[] s31 = s30.toCharArray();
+	
+	for(char c :s31)
+	{
+		System.out.println(c);
+	}
+	
+	
+//18.	isDigit(char c)
+	
+char s32 = 'a';
+	
+boolean	isnumber = Character.isDigit(s32);
+
+System.out.println(isnumber);//false
+	
+String s33 = "sdjkfhsdkjfk3423nsdjhf324ffjhf";	
+//	WAP to remove the numbers from a string
+	
+System.out.println("***********************************************");
+
+
+//19. isAlphabetic
+
+char s34 = 'A';
+
+boolean isalpha = Character.isAlphabetic(s34);
+
+System.out.println(isalpha);// true
+
+
+// to convert primitive to String
+
+int s35 = 10;
+
+System.out.println(s35+2);//12
+
+	String stringvalue = String.valueOf(s35);
+	
+	System.out.println(stringvalue+2);//102
+boolean s36 = false;
+
+String booleanstring = String.valueOf(s36);
+
+System.out.println(booleanstring);
+
+
+
+
 	
 	}
 	
