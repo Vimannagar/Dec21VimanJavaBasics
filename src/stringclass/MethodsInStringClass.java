@@ -214,14 +214,72 @@ int s35 = 10;
 
 System.out.println(s35+2);//12
 
-	String stringvalue = String.valueOf(s35);
+String stringvalue = String.valueOf(s35);
 	
-	System.out.println(stringvalue+2);//102
+System.out.println(stringvalue+2);//102
 boolean s36 = false;
 
 String booleanstring = String.valueOf(s36);
 
 System.out.println(booleanstring);
+
+//String to primitive data type
+
+String s37 = "50";
+
+//String to int conversion
+
+int intvalue = Integer.parseInt(s37);
+
+System.out.println(intvalue+2);//52
+
+String s38 = "56.25";
+
+double doublevalue = Double.parseDouble(s38);
+
+System.out.println(doublevalue);//56.25
+
+String s39 = "true";
+
+boolean booleanvalue = Boolean.parseBoolean(s39);
+
+if(booleanvalue)
+{
+	System.out.println("boolean value is true");
+}
+
+System.out.println("*************************************************");
+
+String s40 = "#c2342^&^%a$pge452mini";
+
+String s41 = s40.replaceAll("[a-z]", "0");
+System.out.println(s41);//#02342^&^%0$0004520000
+
+
+System.out.println("**************************************");
+
+String s42 = s40.replaceAll("[^a-z]", "0");
+System.out.println(s42);//0c00000000a0pge000mini
+System.out.println("**************************************");
+String s43= s40.replaceAll("[a-zA-Z]", "?");
+
+System.out.println(s43);//#?2342^&^%?$???452????
+
+//String s44 = s40.replaceAll("[0-9]", "$");
+//
+//System.out.println(s44);
+String s44 = s40.replaceAll("[a-e]", "?");
+
+System.out.println(s44);
+
+System.out.println("*****************************************");
+
+String s45= s40.replaceAll("[^a-z]", "");
+
+System.out.println(s45);//capgemini
+System.out.println("*****************************************");
+String s46 = s40.replaceAll("[0-9]", "!");
+System.out.println(s46);//#c!!!!^&^%a$pge!!!mini
 
 
 
