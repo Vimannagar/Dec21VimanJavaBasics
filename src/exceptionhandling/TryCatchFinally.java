@@ -19,6 +19,7 @@ public class TryCatchFinally {
 		catch(ArithmeticException e)
 		{
 			System.out.println("Arithmetic exception arrived");
+			e.getMessage();
 		}
 		
 		catch(NullPointerException npe)
